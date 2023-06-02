@@ -1,3 +1,9 @@
+Команда:
+Зайцев Антон
+Зайцев Александр
+Чурилов Алексей
+Гаврилин Пётр
+
 # Practices for MLops course UrFU + SkillFactory
 ## Module 1
 <details>
