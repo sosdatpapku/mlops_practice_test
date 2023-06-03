@@ -11,7 +11,7 @@ pipeline {
                 sh 'whoami'
                 sh 'pwd'
                 sh 'ls -la'
-                sh './pipeline.sh'
+                sh 'sh ./pipeline.sh'
             }
         }
     }
