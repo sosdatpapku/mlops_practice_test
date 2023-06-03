@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'whoami'
                 sh 'pwd'
-                sh 'sh pipeline.sh'
+                sh 'pipeline.sh'
             }
         }
     }
