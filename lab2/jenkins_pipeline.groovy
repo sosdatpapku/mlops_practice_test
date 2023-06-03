@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'whoami'
                 sh 'pwd'
-                sh 'pipeline.sh'
+                sh 'cd /var/lib/jenkins/workspace/test/mlops_practice_test/lab1 && ./pipeline.sh'
             }
         }
     }
