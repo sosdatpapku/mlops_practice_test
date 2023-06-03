@@ -11,7 +11,8 @@ pipeline {
                 sh 'whoami'
                 sh 'pwd'
                 sh 'ls -la'
-                sh 'sh /var/lib/jenkins/workspace/test/lab1/pipeline.sh'
+                sh 'cd /var/lib/jenkins/workspace/test/lab1'
+                sh './pipeline.sh'
             }
         }
     }
