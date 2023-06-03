@@ -10,8 +10,8 @@ pipeline {
             steps {
                 sh 'whoami'
                 sh 'pwd'
-                sh 'cp /workspace/test/lab1/pipeline.sh $WORKSPACE/test@tmp/'
-                sh 'cd $WORKSPACE/test@tmp./pipeline.sh'
+                sh 'ls -la'
+                sh 'sh /workspace/test/lab1/pipeline.sh'
             }
         }
     }
